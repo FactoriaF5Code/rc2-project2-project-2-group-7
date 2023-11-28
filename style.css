@@ -1,0 +1,47 @@
+/* Reseteo de la pagian */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+/*Fuentes */
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+:root {
+    --header-bgcolorsecond:;
+    --header-colormain:;
+    --header-colorsecond:;
+    --main-bgcolormain:; 
+}
+
+body{
+
+}
+
+header {
+    background-color:rgba(132, 131, 131, 1);
+    height: 225px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    justify-content: space-around;
+
+}
+
+.Fotodeperfil{
+    width: 200px;
+    height: 200px;
+    align-items: end;
+}
+
+.Logo_empresa {
+    width: 200px;
+    height: 200px;
+
+}
