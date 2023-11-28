@@ -28,6 +28,9 @@ header {
     height: 225px;
     display: flex;
     align-items: center;
+    background-color:rgba(132, 131, 131, 1);
+    height: 200px;
+    display:flex;
     justify-content: space-between;
 }
 
