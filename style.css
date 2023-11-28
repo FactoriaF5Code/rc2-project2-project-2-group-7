@@ -45,3 +45,13 @@ header {
     height: 200px;
 
 }
+.Columna img {
+    border border-radius: 20px;
+    float: left;
+    padding: 96px;
+    width: 600px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+
+}
