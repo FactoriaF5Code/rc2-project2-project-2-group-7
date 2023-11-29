@@ -26,25 +26,15 @@ body {}
 header {
     background-color: rgba(132, 131, 131, 1);
     height: 225px;
-    display: flex;
-    align-items: center;
-    background-color:rgba(132, 131, 131, 1);
-    height: 200px;
-    display:flex;
-    justify-content: space-between;
+    align-content:center;
+    padding-top: 60px;
 }
-
-.header_right {
+.header_right .header_left{
     width: 200px;
     height: 200px;
     align-items: end;
     float: right;
-}
-
-.Logo_empresa {
-    width: 200px;
-    height: 200px;
-
+    justify-content: space-between;
 }
 
 .Imagenes {
