@@ -1,4 +1,6 @@
-/* Reseteo de la pagian */
+/* Tu código actual */
+
+/* Estilos generales para resetear márgenes, padding y estilos de lista y texto */
 * {
     margin: 0;
     padding: 0;
@@ -8,24 +10,17 @@
     outline: none;
 }
 
-/*Fuentes */
-@font-face {
-    font-family: ;
-    src: url();
+/* Estilos generales del cuerpo del documento */
+body {
+    margin: 0;
+    padding: 0;
 }
 
-:root {
-    --header-bgcolorsecond: ;
-    --header-colormain: ;
-    --header-colorsecond: ;
-    --main-bgcolormain: ;
-}
-
-body {}
-
+/* Estilos para la sección de encabezado */
 header {
     background-color: rgba(132, 131, 131, 1);
     height: 225px;
+<<<<<<< HEAD
     align-content:center;
     padding-top: 60px;
 }
@@ -35,24 +30,102 @@ header {
     align-items: end;
     float: right;
     justify-content: space-between;
+=======
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
 }
 
-.Imagenes {
+/* Estilos para la parte izquierda y derecha del encabezado */
+.header_left,
+.header_right {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 0 8em;
+}
+
+/* Estilos para el logo de la empresa */
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+/* Estilos para la sección principal */
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+>>>>>>> 56fe936bbd37629543422a56857c71d15227ea85
+}
+
+/* Estilos para cada columna de imágenes */
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para el contenedor de cada imagen con texto */
+.image-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* Estilos para las imágenes */
+.image-container img {
+    width: 100%;
+    max-width: 1000px; /* Ajusta el valor según sea necesario */
+    height: auto;
+}
+
+/* Estilos para el overlay con iconos, botón y texto descriptivo */
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Efecto de transición al pasar el ratón sobre la imagen */
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+/* Estilos para el contenedor de iconos */
+.icon-container {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
-.Imagenes1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20%;
-    padding-top: 2%;
+/* Estilos para cada icono */
+.icon {
+    margin: 0 20px; /* Ajusta el valor según sea necesario */
+    font-size: 24px; /* Ajusta el valor según sea necesario */
 }
 
-.Imagenes1 img {
-    width: 20%;
-    height: 30%;
-    border-radius: 10%;
-    object-fit: cover;
+/* Estilos para el texto descriptivo */
+.overlay p {
+    margin-top: 10px;
+    color: white;
+}
+
+/* Estilos para el botón debajo de la imagen */
+.image-button {
+    display: block;
+    margin-top: 10px;
+    padding: 12px 24px; /* Ajusta el valor según sea necesario */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px; /* Ajusta el valor según sea necesario */
+    cursor: pointer;
+    font-size: 18px; /* Ajusta el valor según sea necesario */
 }
