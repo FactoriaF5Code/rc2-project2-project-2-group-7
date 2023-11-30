@@ -25,6 +25,7 @@ header {
     padding-top: 60px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /* Estilos para la parte izquierda y derecha del encabezado */
 .header_left,
@@ -47,12 +48,17 @@ main {
     justify-content: space-around;
     padding: 20px;
 =======
+=======
+>>>>>>> 906ac2de44a5f2f6be45538acab97583c18a00f5
 .header_right .header_left{
     width: 200px;
     height: 200px;
     align-items: end;
     float: right;
     justify-content: space-between;
+<<<<<<< HEAD
+>>>>>>> 906ac2de44a5f2f6be45538acab97583c18a00f5
+=======
 >>>>>>> 906ac2de44a5f2f6be45538acab97583c18a00f5
 }
 
