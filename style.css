@@ -44,27 +44,37 @@ main {
     display: flex;
     justify-content: space-around;
     padding: 20px;
+    justify-content: center;
 }
 
 /* Estilos para cada columna de imágenes */
+
 .column {
     display: flex;
     flex-direction: column;
+    margin: 0 auto; /* Centra horizontalmente */
+    padding-top: 5%;
+    align-items: center; /* Centra verticalmente */
+    margin-left: 30px;
+
 }
+
 
 /* Estilos para el contenedor de cada imagen con texto */
 .image-container {
     position: relative;
-    margin-bottom: 20px;
+    width: 100%;
+    
 }
+
 
 /* Estilos para las imágenes */
 .image-container img {
-    width: 100%;
-    max-width: 1000px; /* Ajusta el valor según sea necesario */
+    width: 300%;
     height: auto;
     border-radius: 10%;
 }
+
 
 /* Estilos para el overlay con iconos, botón y texto descriptivo */
 .overlay {
