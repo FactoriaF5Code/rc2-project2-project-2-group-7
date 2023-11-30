@@ -1,4 +1,4 @@
-/* Tu código actual */
+
 
 /* Estilos generales para resetear márgenes, padding y estilos de lista y texto */
 * {
@@ -14,6 +14,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-image: url("../rc2-project2-project-2-group-7/img/Fondo\ de\ pagina.jpg");
 }
 
 /* Estilos para la sección de encabezado */
@@ -36,8 +37,8 @@ header {
 
 /* Estilos para el logo de la empresa */
 .logo {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 /* Estilos para la sección principal */
@@ -64,6 +65,7 @@ main {
     width: 100%;
     max-width: 1000px; /* Ajusta el valor según sea necesario */
     height: auto;
+    border-radius: 10%;
 }
 
 /* Estilos para el overlay con iconos, botón y texto descriptivo */
